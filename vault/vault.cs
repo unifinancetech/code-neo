@@ -15,7 +15,7 @@ namespace Vault
         // `110e493ab5703f2fb8d1b0570397f8357e153318` will be replace by the script hash of target token
         private static readonly object TargetToken = "110e493ab5703f2fb8d1b0570397f8357e153318".HexToBytes();
         private static readonly object PREFIX = "flam";
-        private static readonly object PREFIXNAME = "flamincomed ";
+        private static readonly object PREFIXNAME = "unifinacetechd ";
         // WTF: PUSH2 + PACK + PUSH['action'] + APPCALL
         private static readonly object CMD_ACTION = "52c106616374696f6e67".HexToBytes();
         // WTF: PUSH2 + PACK + PUSH['withdraw'] + APPCALL
